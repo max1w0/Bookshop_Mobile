@@ -1,4 +1,4 @@
-# STR Bookstore Android Mobile Client
+# Bookstore Android Mobile Client
 
 An **Android mobile client application** built in **Java** for an online bookstore. The app features a book catalog with genre filtering, shopping cart, and user authentication.
 
