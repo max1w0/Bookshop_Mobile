@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">STR Bookstore</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Book Catalog</string>
+    <string name="title_notifications">Cart</string>
+    <string name="title_login">Login</string>
+    <string name="title_registration">Create Account</string>
+    <string name="title_pay">Checkout</string>
+    <string name="username_autofill_hint">username</string>
+    <string name="password_autofill_hint">password</string>
+
+</resources>

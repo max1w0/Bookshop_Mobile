@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:padding="16dp"
+              tools:context=".ui.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/InputUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ETStyle"
+            android:paddingLeft="15dp">
+        <ImageView
+                android:id="@+id/searchIcon"
+                android:src="@drawable/searchic"
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+        />
+        <EditText
+                android:id="@+id/searchField"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Search"
+                android:textSize="6pt"
+                android:textColorHint="@color/exColorText"
+                android:inputType="textPassword"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                app:layout_constraintStart_toEndOf="@id/searchIcon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/productsGrid"
+            android:layout_width="match_parent"
+            android:layout_height="618dp"
+            android:layout_marginTop="16dp"
+            android:clipToPadding="false"
+            android:paddingBottom="16dp"/>
+</LinearLayout>

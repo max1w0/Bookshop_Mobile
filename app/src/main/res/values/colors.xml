@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="accentColor">#085E17</color>
+    <color name="accentColorOnHover">#085E17</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="screenColor">#12321B</color>
+    <color name="exColorText">#5B956C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="defBackground">#FFFFFFFF</color>
+    <color name="additionalBG">#A6CDAB</color>
+    <color name="placeholder">#636777</color>
+</resources>
